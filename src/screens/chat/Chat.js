@@ -12,6 +12,7 @@ import {getAvatar} from '../../avatar.util';
 import ChatInput from '../../components/ChatInput';
 import LoadingView from '../../components/LoadingView';
 import RetryView from '../../components/RetryView';
+import {groupMessagesToSections} from '../../date.util';
 import {ChatItem} from './ChatItem';
 import {ChatSection} from './ChatSection';
 import {ChatSelfItem} from './ChatSelfItem';
